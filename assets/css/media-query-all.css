@@ -1,0 +1,545 @@
+@media (max-width:1024px) {
+	
+	.see-reports .input-group input {
+		max-width: 78%;
+	}
+	
+	.see-report-btn {
+		font-size: 16px;
+		font-weight: 300;
+		max-width: 34%;
+	}
+	
+
+}
+/*===--End of Media max-width-1199--==*/
+
+
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	
+	.dashboardMenu {
+		min-width: 160px;
+	}
+	
+	.property-top .pull-left {
+		width:55%;
+	}
+	
+	.property-top .pull-right {
+		width: 45%;
+	}
+	
+	.property-top .claim-button {
+		font-size:18px;
+	}
+	
+	
+	.list-view-table tr th:nth-child(1),
+	.list-view-table tr td:nth-child(1) {
+		width: 40%;
+	}
+	
+	.list-view-table tr th:nth-child(3),
+	.list-view-table tr td:nth-child(3) {
+		width: 35%;
+	}
+	
+	.contact-info-table tr td:first-child, .my-password-table tr td:first-child {
+		width: 35%;
+	}
+	
+	.contact-info-table tr td:last-child, .my-password-table tr td:last-child {
+		width: 65%;
+	}
+
+	
+}
+/*===--End of Media min-width-1024--==*/
+
+
+
+
+@media (max-width:991px) {
+	
+	input.form-control,
+	.form-group select  {
+		font-size: 16px;
+		font-weight: 400; 
+	}
+	
+	label {
+		font-size: 18px;
+		line-height: 18px;
+		font-weight: 400;
+	}
+	
+	
+	.dashboard-title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+	
+	
+	.btn {
+		font-size: 18px;
+		line-height: 18px;
+		padding: 12px 24px;
+	}
+	
+	.admin-property-table tr th,
+	.admin-property-table tr td {
+		padding:15px 10px;
+	}
+	
+	.admin-property-table tr th:first-child, 
+	.admin-property-table tr td:first-child {
+		padding-left:15px;
+	}
+	
+	.admin-property-table tr td:last-child {
+		padding-right:15px;
+	}
+	
+	.admin-property-table tr td .action-details a img {
+		max-width:16px;
+	}
+	
+	.see-reports .input-group input {
+		max-width: 66%;
+	}
+		
+	.upload {
+		font-size: 16px;
+		line-height: 20px;
+		padding: 6px 0;
+	}
+	
+	
+	.property-body h6 {
+		font-size: 20px;
+	}
+	
+	.signUpBlk .dont {
+		line-height:40px;
+	}
+	
+	.unclimPro {
+		font-size: 16px;
+	}
+	
+	.unclimPro img {
+		max-width:15px;
+	}
+	
+	
+	
+}
+/*===--End of Media max-width-991--==*/
+
+
+
+
+
+@media (min-width:768px) {
+	
+	
+	
+	
+	
+	
+}
+/*===--End of Media min-width-768--==*/
+
+
+
+
+
+@media (max-width:767px) {
+	.dashboard-header .navbar-header .navbar-brand img {
+		margin-top: 15px;
+		max-width: 150px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li a {
+		font: 300 16px/16px 'Roboto', sans-serif;
+		padding: 0 15px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li a img {
+		max-width: 20px;
+	}
+
+	.dashboardMenu {
+    	min-height: initial;
+	}
+	
+	.dashboardMenu li a {
+		padding: 18px 0;
+	}
+	
+	.dashboardMenu li.log-out {
+		position:relative;
+	}
+	
+	.dashboardContent {
+		padding: 40px 20px;
+	}
+	
+	.property-body {
+		padding: 20px;
+	}
+	
+	.my-contact-info,
+	.my-password {
+		padding:0;
+	}
+	
+	.property-top .pull-left,
+	.property-top .pull-right {
+		width:100%;
+		display:block;
+		margin-bottom:20px;
+		text-align: left;
+	}
+	
+	.list-view-table tr td .envelape a img {
+		margin-left:0;
+	}
+	
+	.list-view-table tr th,
+	.list-view-table tr td {
+    	padding: 8px;
+	}
+	
+	.list-view-table tr td:last-child {
+		padding-right: 10px;
+	}
+	
+	.list-view-table tr td .edit {
+		margin-bottom: 10px;
+	}
+	
+	
+	.my-contact-info .pull-left,
+	.my-password .pull-left {
+		width:74%;
+	}
+	
+	.my-contact-info .pull-right,
+	.my-password .pull-right {
+		width:26%;
+	}
+	
+	.contact-info-table tr td:first-child, .my-password-table tr td:first-child {
+		padding-left: 20px;
+	}
+	
+	.list-view-table tr th:first-child, .list-view-table tr td:first-child {
+		padding-left: 15px;
+	}
+	
+	.pagination>li>a, .pagination>li>span {
+		margin-bottom: 8px !important;
+	}
+	
+	.see-reports .input-group input {
+		max-width: 81%;
+	}
+	
+	.see-report-btn {
+		font-size: 14px;
+		font-weight: 300;
+		padding:0 12px;
+		max-width: 40%;
+	}
+	
+	.see-report-btn img {
+		max-width:22px;
+		margin-right:5px;
+		margin-top:-2px;		
+	}
+	
+	.reports-map ul li {
+		padding-right: 28px;
+	}
+	
+	.checkbox-custom {
+		width: 60%;
+	}
+	
+	.vendor-login .login-body .forgot-pass {
+		width: 38%;
+	}
+	
+	.report-map .modal-footer ul {
+		width: 100%;
+	}
+	
+	.property-top .claim-button img {
+		margin-top: -7px;
+	}
+	
+	.upload {
+    	line-height: 50px;
+	}
+	
+	
+/*------------------------------------------
+	Start of Admin table mobile responsive
+--------------------------------------------*/
+	
+	.admin-property-table tr th {
+		display:none;
+	}
+	
+	
+	.admin-property-table tr:nth-child(odd) td {
+		background:rgba(244, 244, 244, 0.3);
+	}
+	
+	.admin-property-table tr:nth-child(even) td {
+		
+	}
+	
+	.admin-property-table tr td {
+		width: 100% !important;
+    	display: block;
+	}
+	
+	.admin-property-table tr td:before {
+		font-weight: 500;
+		color: #7F7F7F;
+		width: 120px;
+		display: inline-block;
+	}
+	
+	.admin-property-table tr td .action-details {
+		float: inherit;
+		margin-left: 20px;
+	}
+	
+	.admin-property-table tr td:nth-of-type(1):before { content: "Name"; }
+	.admin-property-table tr td:nth-of-type(2):before { content: "Address"; }
+	.admin-property-table tr td:nth-of-type(3):before { content: "Status"; }
+	.admin-property-table tr td:nth-of-type(4):before { content: "Documents"; }
+	.admin-property-table tr td:nth-of-type(5):before { content: "Actions"; }
+
+/*------------------------------------------
+	End of Admin table mobile responsive
+--------------------------------------------*/
+	
+	
+	
+	
+	
+	
+}
+/*===--End of Media max-width-767--==*/
+
+
+@media (max-width:668px) {
+	
+	.see-reports .input-group input {
+		max-width: 79%;
+	}
+	
+}
+/*===--End of Media max-width-668--==*/
+
+
+@media (max-width:640px) {
+	
+	.signUpBlk .dont {
+		font-size:14px;
+	}
+	
+	.login-body .forgot-pass a {
+		font-size:14px;
+	}
+	
+	.checkbox-custom label {
+		font-size: 13px;
+	}
+	
+	.checkbox-custom input[type=checkbox] + label:before {
+		font-size:14px;
+		padding:1px 2px;
+	}
+	   
+	.checkbox-custom input[type=checkbox]:checked + label:before {
+		font-size:14px;
+		padding:1px 2px;
+	}
+	
+	.see-reports .input-group input {
+		max-width: 65%;
+	}
+			
+		
+		
+}
+/*===--End of Media max-width-640--==*/
+
+
+
+@media (max-width: 568px) {
+	
+	.see-reports .input-group input {
+		max-width: 75%;
+	}	
+
+}
+/*===--End of Media max-width-568--==*/
+
+
+
+@media (max-width: 480px) {
+	
+	.see-reports .input-group input {
+		max-width: 70%;
+	}	
+
+}
+/*===--End of Media max-width-480--==*/
+
+
+
+@media (max-width: 440px) {
+	
+	.see-reports .input-group input {
+		max-width: 65%;
+	}	
+
+}
+/*===--End of Media max-width-440--==*/
+
+
+
+
+@media (max-width:400px){
+	
+	.dashboard-header .nav-menu-right .top-right-menu li a {
+		padding: 0 10px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li:last-child a {
+		padding-right:0;
+	}
+	
+	.my-contact-info .pull-left,
+	.my-password .pull-left {
+		width:70%;
+	}
+	
+	.my-contact-info .pull-right,
+	.my-password .pull-right {
+		width:30%;
+	}
+	
+	
+	.see-reports .input-group input {
+		max-width: 61%;
+	}
+	
+	
+	input.form-control, 
+	.form-group select {
+		height: 40px;
+	}
+	
+	.form-group select {
+		padding:6px 24px;
+	}
+	
+	.form-group .custom-select:after {
+		top:5px;
+	}
+	
+	.see-report-btn {
+		line-height:40px;
+	}
+	
+	.checkbox-custom {
+		width: 100%;
+	}
+	
+	.vendor-login .login-body .forgot-pass {
+		width: 100%;
+		text-align: left;
+		margin-top: 15px;
+	}
+	
+	.form-group select {
+		background-position: 95% 16px;
+	}
+	
+	.upload {
+    	line-height: 30px;
+	}
+
+	
+	
+	
+	
+		
+}
+/*===--End of Media max-width-400--==*/
+
+
+
+
+
+@media (max-width:340px){
+	
+	.dashboard-header .navbar-header .navbar-brand {
+		height: 60px;
+	}
+	
+	.dashboard-header .navbar-header .navbar-brand img {
+		margin-top: 13px;
+		max-width: 125px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li {
+		line-height: 60px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li a {
+		font: 300 14px/14px 'Roboto', sans-serif;
+		padding: 0 6px;
+	}
+	
+	.dashboard-header .nav-menu-right .top-right-menu li a img {
+		max-width: 16px;
+	}
+	
+	.see-reports .input-group input {
+		max-width: 53%;
+	}
+	
+	.see-report-btn {
+		max-width: 47%;
+	}
+	
+	.property-top .claim-button {
+		font-size:18px;
+	}
+	
+	.property-top .claim-button img {
+		max-width: 20px;
+		margin-top: -4px;
+		margin-right: 3px;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
+/*===--End of Media max-width-340--==*/

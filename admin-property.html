@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Admin Properties</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" type="image/png" href="assets/images/favicon-icon.png" sizes="16x16">
+
+	<!--Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--font-awesome CSS-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">  
+    
+    <!--tooltipster CSS-->
+    <link href="assets/css/tooltipster.css" rel="stylesheet">         
+    
+    <!--Custom Template-->
+    <!--<link href="assets/css/style.css" rel="stylesheet" type="text/css">-->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    
+    <link href="assets/css/media-query-all.css" rel="stylesheet" type="text/css">                
+		
+    
+    
+  </head>
+  
+  <body>
+  	<header class="dashboard-header block">
+    	<nav class="navbar navbar-default container-fluid">
+          <figure class="row">
+           
+            <figcaption class="navbar-header pull-left">
+              <a class="navbar-brand" href="#"><img src="assets/images/sell-club-logo.png" class="img-responsive" alt="logo"/></a>
+            </figcaption>
+            <!-- /.navbar-header --> 
+            
+            <figcaption class="nav-menu-right pull-right">
+                 
+            </figcaption>
+            <!-- /.nav-right --> 
+                      
+          </figure>
+          <!-- /row -->          
+		</nav>
+        <!-- /.container-fluid -->
+    </header>
+    <!-- /.dashboard-header -->
+    
+  	<main class="block">
+    	<section class="container-fluid dashboad">
+        	<section class="row">
+                <section class="col-md-2 col-sm-3 col-xs-12 dashboardMenu">
+                    <ul>
+                    	<li class="active"><a href="admin-property.html"><img src="assets/images/home-icon.png" alt="img" >Properties</a></li>
+                        <li><a href="reports.html"><img src="assets/images/reports-menu-icon.png" alt="img" >Reports</a></li>
+                        <li class="log-out"><a href="admin-login.html"><img src="assets/images/log-out-icon.png" alt="img" /> Log out</a></li>
+                    </ul>
+                </section>
+                <!--End of dashboardMenu-->
+                
+                <section class="col-md-10 col-sm-9 col-xs-12 dashboardContent">
+                    
+                    <article class="block">
+                    	<figure class="admin-property">
+                        	<figcaption class="col-sm-12 col-xs-12 property-top">
+                            	<div class="pull-left">
+                                	<h2 class="dashboard-title">All Properties</h2>
+                                </div>
+                                <div class="pull-right">
+                                    <a href="javascript:void(0);" data-target="#admin-new-property" data-toggle="modal" class="claim-button"><img src="assets/images/add-property-icon.png" alt="icon" /> Add New Property</a>
+                                </div>
+                            </figcaption>
+                            <!--End of col-->
+                            
+                            <figcaption class="col-sm-12 col-xs-12 admin-property-body">
+                            
+                            	
+                                
+                                <table class="admin-property-table">
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Address</th>
+                                        <th>Status</th>
+                                        <th>Documents</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td>Unknown</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td class="warning">On the market</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td class="danger">Not for sell</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td class="success">Want to sell</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td>Unknown</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td>Unknown</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td>Unknown</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>John Smith</td>
+                                        <td>3 Atlantic Ave</td>
+                                        <td>Unknown</td>                                        
+                                        <td>
+                                        	<a href="javascript:void(0);" data-target="#view-photo" data-toggle="modal" class="tooltip-link tooltipstered doc-icon" title="Photo ID"><img src="assets/images/photo-id-icon.png" alt="icon" /></a>
+                                            <a href="javascript:void(0);" class="tooltip-link tooltipstered doc-icon" title="Council Rate / Water Rate"><img src="assets/images/council-rate-icon.png" alt="icon" /></a>
+                                        </td>
+                                        
+                                        <td>
+                                        	<span class="action-state">
+                                            	<a href="#" class="action-normal success"><img src="assets/images/action-ok-icon.png" alt="icon" /></a>
+                                                <a href="#" class="action-normal"><img src="assets/images/action-close-icon.png" alt="icon" /></a>
+                                            </span>
+                                            
+                                            <span class="action-details">
+                                            	<a href="javascript:void(0);" data-target="#view-details" data-toggle="modal" class="tooltip-link tooltipstered" title="Details"><img src="assets/images/action-details-icon.png" alt="icon" /></a>
+                                            </span>                                            
+                                        </td>
+                                        
+                                    </tr>
+                                    
+    							</table>
+                                
+                                
+                                
+                                <figcaption class="pagination-bar">                                    
+                                	<nav aria-label="Page navigation">
+                                      <ul class="pagination">
+                                        <li class="hidden">
+                                          <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                                          </a>
+                                        </li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">...</a></li>                                       
+                                        <li><a href="#">28</a></li>
+                                        <li>
+                                          <a href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </nav>
+                                </figcaption>
+                                <!--End of pagination-bar-->
+                            	
+                                
+                                
+                            </figcaption>
+                            <!--End of admin-property-body-->
+                                                    
+                        </figure>
+                        <!--End of admin-property-->
+                      
+                   	</article>
+                                  
+                </section>
+                <!--End of dashboardContent-->
+            </section>
+            <!--End of row-->    
+        </section>
+        <!--End of dashboad-->
+        
+        
+        
+        <section class="block all-modal">
+        	
+            <article>
+            
+            	 <figure class="modal fade admin-new-property" id="admin-new-property" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title">Add New Property</h4>
+                          </div>
+                          <div class="modal-body">
+                              <form action="">
+                                  <div class="form-group">
+                                      <label for="">Property Address</label>
+                                      <input type="text" placeholder="Enter address" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="">Property Status</label>
+                                       <div class="custom-select">
+                                          <select name="" id="">
+                                              <option value="">On the Market</option>
+                                              <option value="">On the Market</option>
+                                              <option value="">On the Market</option>
+                                          </select>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn cancel-btn" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn">ADD</button>
+                          </div>
+                        </div>
+                      </div>
+                    </figure>
+                    <!-- End of admin-new-property -->
+                    
+                    
+                    <figure class="modal fade view-photo" id="view-photo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header view">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">View Photo ID</h4>
+                          </div>
+                          <div class="modal-body view-photo-body">
+                              <div class="ID-card">
+                                  <img src="assets/images/id.jpg" alt="ID CARD" class="img-responsive">
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </figure>
+                    <!-- End of view-photo -->
+                    
+                    
+                    <figure class="modal fade view-details" id="view-details" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header view">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">View Details</h4>
+                          </div>
+                          <div class="modal-body view-details-body">
+                              <div class="view">
+                                  <p>name</p>
+                                  <div class="pre-view">
+                                      <p>emily feng</p>
+                                  </div>
+                              </div>
+                              <div class="view">
+                                  <p>address</p>
+                                  <div class="pre-view">
+                                      <p>350 bourke st, melbourne VIC 3004, australia</p>
+                                  </div>
+                              </div>
+                              <div class="view">
+                                  <p>postal address</p>
+                                  <div class="pre-view">
+                                      <p>350 bourke st, melbourne VIC 3004, australia</p>
+                                  </div>
+                              </div>
+                              <div class="view">
+                                  <p>mobile number</p>
+                                  <div class="pre-view">
+                                      <p>123-456-7890</p>
+                                  </div>
+                              </div>
+                              <div class="view">
+                                  <p>e-mail address</p>
+                                  <div class="pre-view view-email">
+                                      <p class="">emily@gmail.com</p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </figure>
+                    <!-- End of View Details-->
+            	
+                 
+                    
+                             
+            
+            
+            
+            </article>        
+        </section>
+        <!-- End of all-modal--> 
+        
+        
+        
+    </main>	
+  	<!--End of /.main -->
+    
+    
+       
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>  
+    
+    
+  </body>
+</html>

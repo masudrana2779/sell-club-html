@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>My Details</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" type="image/png" href="assets/images/favicon-icon.png" sizes="16x16">
+
+	<!--Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--font-awesome CSS-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">  
+    
+    <!--tooltipster CSS-->
+    <link href="assets/css/tooltipster.css" rel="stylesheet">         
+    
+    <!--Custom Template-->
+    <!--<link href="assets/css/style.css" rel="stylesheet" type="text/css">-->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    
+    <link href="assets/css/media-query-all.css" rel="stylesheet" type="text/css">                
+		
+    
+    
+  </head>
+  
+  <body>
+  	<header class="dashboard-header block">
+    	<nav class="navbar navbar-default container-fluid">
+          <figure class="row">
+           
+            <figcaption class="navbar-header pull-left">
+              <a class="navbar-brand" href="#"><img src="assets/images/sell-club-logo.png" class="img-responsive" alt="logo"/></a>
+            </figcaption>
+            <!-- /.navbar-header --> 
+            
+            <figcaption class="nav-menu-right pull-right">
+                <ul class="top-right-menu">                          
+                    <li><a href="#"><img src="assets/images/oval-qs.png" alt="img" /> Help</a></li>
+                    <li><a href="#">Emily Feng</a></li> 
+                </ul>    
+            </figcaption>
+            <!-- /.nav-right --> 
+                      
+          </figure>
+          <!-- /row -->          
+		</nav>
+        <!-- /.container-fluid -->
+    </header>
+    <!-- /.dashboard-header -->
+    
+  	<main class="block">
+    	<section class="container-fluid dashboad">
+        	<section class="row">
+                <section class="col-md-2 col-sm-3 col-xs-12 dashboardMenu">
+                    <ul>
+                    	<li><a href="my-property.html"><img src="assets/images/home-icon.png" alt="img" >My properties</a></li>
+                        <li class="active"><a href="my-details.html"><img src="assets/images/my-icon.png" alt="img" > My Details</a></li>
+                        <li class="log-out"><a href="vendor-login.html"><img src="assets/images/log-out-icon.png" alt="img" /> Log out</a></li>
+                    </ul>
+                </section>
+                <!--End of dashboardMenu-->
+                
+                <section class="col-md-10 col-sm-9 col-xs-12 dashboardContent">
+                    
+                    <article class="block">
+                    	<figure class="my-details">
+                        	
+                            <figcaption class="col-sm-12 col-xs-12 my-contact-info">
+                            	<div class="pull-left">
+                                	<h2 class="dashboard-title">My Contact Information</h2>
+                                </div>
+                                <div class="pull-right">
+                                    <button class="btn edit-btn" data-target="#edit-contact-imfo" data-toggle="modal">Edit</button>
+                                </div>
+                                
+                                <table class="contact-info-table">
+                                	<tr>
+                                    	<td>Name</td>
+                                        <td>Emily Feng</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    	<td>Address</td>
+                                        <td>350 Bourke St, Melbourne VIC 3004, Australia</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    	<td>Mobile Number</td>
+                                        <td>123-456-7890</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                    	<td>E-mail Address</td>
+                                        <td>emily@gmail.com</td>
+                                    </tr>
+                                
+                                
+                                </table>
+                            	<!--End of contact-info-table-->
+                                
+                                
+                            </figcaption>
+                            <!--End of my-contact-info-->                            
+                            
+                            
+                            <figcaption class="col-sm-12 col-xs-12 my-password">
+                            	<div class="pull-left">
+                                	<h2 class="dashboard-title">My Password</h2>
+                                </div>
+                                <div class="pull-right">
+                                    <button class="btn edit-btn" data-target="#change-password" data-toggle="modal">Edit</button>
+                                </div>
+                                
+                                <table class="my-password-table">
+                                	<tr>
+                                    	<td>Password</td>
+                                        <td><i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> <i class="fa fa-circle" aria-hidden="true"></i> </td>
+                                    </tr>
+                                </table>
+                            	<!--End of my-password-table-->
+                                
+                                
+                            </figcaption>
+                            <!--End of my-password-->
+                            
+                            
+                            
+                            
+                                                    
+                        </figure>
+                        <!--End of my-details-->
+                      
+                   	</article>
+                                  
+                </section>
+                <!--End of dashboardContent-->
+            </section>
+            <!--End of row-->    
+        </section>
+        <!--End of dashboad-->
+        
+        
+        
+        
+        <section class="block all-modal">
+        	
+            <article>
+            	
+                  
+                    
+                   <figure class="modal fade edit-contact-imformation" id="edit-contact-imfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title">Edit Contact Information</h4>
+                          </div>
+                          <div class="modal-body edit-contact-information-body">
+                              <form action="">
+                                  <div class="form-group">
+                                      <label for="">Name</label>
+                                      <input type="text" class="form-control" value="Emily Feng">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="">Address</label>
+                                      <input type="text" class="form-control" value="350 bourke st, melbourne VIC 3004, australia">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="">Postal Address</label>
+                                  </div>
+                                  
+                                  <div class="form-group">
+                                      <div class="checkbox-custom">
+                                          <input type="checkbox" id="chech-me">
+                                          <label for="chech-me" >Same as above</label>
+                                      </div>
+                                  </div>
+                                 
+                                  <div class="form-group">
+                                      <input type="text" class="form-control blank" >
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="">Mobile Number</label>
+                                      <input type="text" class="form-control" value="123-456-7890">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="">E-mail address</label>
+                                      <input type="text" class="form-control" value="emily@|">
+                                  </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn cancel-btn" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn">SAVE</button>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </figure>
+                    <!-- End of Edit contact information -->
+                    
+                    
+                    
+                    <figure class="modal fade change-password" id="change-password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title">Change Password</h4>
+                          </div>
+                          <div class="modal-body change-password-body">
+                              <form action="">
+                                  <div class="form-group">
+                                      <label for="password">Current Password</label>
+                                      <input type="password" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="password">New Password</label>
+                                      <input type="password" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label for="password">Confirm New Password</label>
+                                      <input type="password" class="form-control">
+                                  </div>
+                              </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn cancel-btn" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn">SAVE</button>
+                          </div>
+                        </div>
+                      </div>
+                    </figure>
+                    <!-- End of Change Password -->
+                        
+                    
+                             
+            
+            
+            
+            </article>        
+        </section>
+        <!-- End of all-modal--> 
+        
+        
+        
+        
+        
+        
+    </main>	
+  	<!--End of /.main -->
+    
+    
+       
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.tooltipster.min.js"></script>  
+    
+    
+  </body>
+</html>
